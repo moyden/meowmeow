@@ -157,7 +157,7 @@ export default {
 
     setInterval(function () {
       this.fetchData()
-    }.bind(this), 120000)
+    }.bind(this), 60000)
   }
 }
 </script>
