@@ -154,6 +154,10 @@ export default {
 
   mounted: function () {
     this.fetchData()
+
+    setInterval(function () {
+      this.fetchData()
+    }.bind(this), 120000)
   }
 }
 </script>
