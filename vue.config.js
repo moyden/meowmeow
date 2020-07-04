@@ -8,8 +8,8 @@ module.exports = {
   },
   pwa: {
     name: 'Meow Meow',
-    themeColor: 'rgb(255, 210, 48)',
-    msTileColor: 'rgb(255, 210, 48)',
+    themeColor: '#ffd230',
+    msTileColor: '#ffd230',
     appleMobileWebAppCapable: 'yes',
     appleMobileWebAppStatusBarStyle: 'default'
   }
